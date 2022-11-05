@@ -231,7 +231,7 @@ const btf = {
 
     if (service === 'fancybox') {
       ele.forEach(i => {
-        if (i.parentNode.tagName !== 'A') {
+        if (i.parentNode.tagName !== 'A' && i.className != 'nofancybox') {    //图片跳过fancybox
           const dataSrc = i.dataset.lazySrc || i.src
           const dataCaption = i.title || i.alt || ''
           btf.wrap(i, 'a', { href: dataSrc, 'data-fancybox': 'gallery', 'data-caption': dataCaption, 'data-thumb': dataSrc })

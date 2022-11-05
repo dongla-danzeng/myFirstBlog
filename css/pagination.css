@@ -1,0 +1,71 @@
+/* 推荐文章 */
+.relatedPosts>.relatedPosts-list .content {
+    position: relative;
+  }
+  
+  .relatedPosts>.relatedPosts-list>div {
+    border-radius: var(--border-radius);
+  }
+  
+  .relatedPosts>.relatedPosts-list .content .date {
+    font-size: 1rem;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  
+  .relatedPosts>.relatedPosts-list .content .title {
+    font-size: 1.1rem;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+  }
+  
+  .relatedPosts>.relatedPosts-list>div:hover .cover {
+    opacity: .1;
+  }
+  
+  .relatedPosts>.relatedPosts-list>div:hover {
+    background: var(--main);
+    color: var(--second);
+    box-shadow: var(--main-shadow);
+  }
+  
+  .relatedPosts>.relatedPosts-list>div:hover .content .date,
+  .relatedPosts>.relatedPosts-list>div:hover .content .title {
+    opacity: 0;
+  }
+  
+  .relatedPosts>.relatedPosts-list .content .info {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    padding: 0 1rem;
+    color: var(--second);
+    text-align: justify;
+    word-break: break-all;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .relatedPosts>.relatedPosts-list>div:hover .content .info {
+    opacity: 1;
+  }

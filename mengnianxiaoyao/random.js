@@ -1,1 +1,1 @@
-var posts=["posts/1.html"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};
+var posts=["posts/1.html","posts/1.html","posts/1.html","posts/1.html"];function toRandomPost(){window.open('/'+posts[Math.floor(Math.random() * posts.length)],"_self");};

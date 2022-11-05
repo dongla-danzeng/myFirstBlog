@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
 
 .neko::after {
     display: none;
-    width: 70px;
+    width: 93px;
     height: 100px;
     background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");
     background-size: contain;
